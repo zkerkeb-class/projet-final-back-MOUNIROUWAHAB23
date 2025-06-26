@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { hash, compare } from 'bcryptjs';
-import jwt from 'jsonwebtoken'; // Utilise l'import par défaut pour jsonwebtoken
+import jwt from 'jsonwebtoken'; 
 import User from '../models/User.js';
 import authenticate from '../middleware/authenticate.js';
 

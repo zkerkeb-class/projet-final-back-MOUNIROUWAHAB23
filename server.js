@@ -2,9 +2,9 @@ import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import authRoutes from './routes/auth.js'; // Notez l'extension .js obligatoire
-import commentRoutes  from './routes/comment.js'; // Notez l'extension .js obligatoire
-import favoriteRoutes from './routes/favorites.js'; // Notez l'extension .js obligatoire
+import authRoutes from './routes/auth.js'; 
+import commentRoutes  from './routes/comment.js'; 
+import favoriteRoutes from './routes/favorites.js'; 
 
 const app = express();
 
